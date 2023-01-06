@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #1a1f36;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+}
+
+body {
+    min-height: 100%;
+    background-color: #ffffff;
+}
+
+h1 {
+    letter-spacing: -1px;
+}
+
+a {
+    color: #5469d4;
+    text-decoration: unset;
+}
+
+.main-container {
+    /*Github Logo As main background with a purple overlay*/
+    background: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) no-repeat center center fixed;
+
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.flex-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.box-root {
+    box-sizing: border-box;
+}
+
+.flex-direction--column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.padding-top--64 {
+    padding-top: 64px;
+}
+
+.padding-top--24 {
+    padding-top: 24px;
+}
+
+.padding-top--48 {
+    padding-top: 48px;
+}
+
+.padding-bottom--24 {
+    padding-bottom: 24px;
+}
+
+.padding-horizontal--48 {
+    padding: 48px;
+}
+
+.padding-bottom--15 {
+    padding-bottom: 15px;
+}
+
+
+.flex-justifyContent--center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.formbg {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 448px;
+    /* Transparent Background*/
+    background: rgba(255, 255, 255, 0.9);
+
+    /* Simple border */
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1a1f36;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+
+.grid--50-50 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.field input {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+input[type="submit"] {
+    background-color: rgb(84, 105, 212);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.field-checkbox input {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    box-shadow: unset;
+    min-height: unset;
+}
+
+
+/* result section*/
+
+.result-section{
+    border-radius: 4px;
+    width: 100%;
+    /* simple  box with border and shadow*/
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.footer-link span {
+    font-size: 14px;
+    text-align: center;
+}
+.footer-container a {
+    color: #697386;
+    font-weight: 600;
+    margin: 0 10px;
+}
